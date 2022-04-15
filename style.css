@@ -1,0 +1,120 @@
+.list {
+    text-align: center;
+    position: relative;
+    border: 1px groove gray;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellow {
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 0px;
+    background-color: #FFDC40;
+    height: 28px;
+    width: 100%;
+}
+
+.to-do-list {
+    padding: 40px;
+    text-align: center;
+}
+
+.add_main_btn{
+    color: white;
+    position: relative;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #9953F1;
+    border-radius: 70px;
+    background-color: #9953F1;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cancelBtnList{
+    background: none;
+    border: none;
+}
+
+.textArea {
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #c4c4c4;
+    width: 280px;
+    height: 40px;
+}
+
+
+.plus {
+    position: absolute;
+    background-color: #AA68FE;
+    border-radius: 70px;
+    height: 44px;
+    width: 44px;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text {
+    position: relative;
+}
+
+.cancelBtn {
+    position: absolute;
+    right: 0;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.filter_div {
+    display: flex;
+    justify-content: end;
+    margin: 0 25px 5px 0;
+}
+
+
+.input {
+
+    width: 286px;
+    height: 43.5px;
+    left: 436px;
+    top: 359.24px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+ul {
+    position: relative;
+    display: block;
+    width: 286px;
+    height: auto;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    list-style: none;
+    text-align: center;
+
+
+    
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+ul li p {
+    margin: 0;
+}
